@@ -1,0 +1,8 @@
+
+    TODO
+
+* Finish base code for interractions between unguided massive objects
+* Add support for intelligent objects
+* Add support for simulation forecasting (For search-based intelligent objects)
+* Start code for determining pseudo-stable circular orbits
+* Start code for determining pseudo-stable eliptical orbits
