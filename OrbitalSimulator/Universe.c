@@ -85,6 +85,7 @@ void Universe_performTick( Universe universe, double tick_scale ) {
 		temp = g_slist_next( temp );
 	}
 
+	// Free the thread pool once it's done processing all its tasks.
 	g_thread_pool_free( thread_pool, 0, 1 );
 
 	// Now that we're done, let's clean up.
@@ -100,7 +101,6 @@ void _Universe_addOrbitalsToCollection( gpointer data, gpointer user_data ) {
 	mp->x = orbital->position->x;
 	mp->y = orbital->position->y;
 	mp->z = orbital->position->z;
-	mp->user_data = orbital;
 
 	// Insert the masspoint to our OrbitalCollection
 	orbital->user_data = OrbitalCollection_addMassToUniverse( collection, mp );
