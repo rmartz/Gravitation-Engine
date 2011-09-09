@@ -1,6 +1,3 @@
-[submodule "barnes-hut-tree"]
-	path = barnes-hut-tree
-	url = https://github.com/dkhenry/barnes-hut-tree
 [submodule "OrbitalCollection"]
 	path = OrbitalCollection
 	url = https://github.com/dkhenry/barnes-hut-tree
