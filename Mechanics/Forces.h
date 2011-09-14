@@ -8,6 +8,7 @@
 #ifndef FORCES_H_
 #define FORCES_H_
 
+Vector3D Forces_getAttractionBetweenPoints( Point3D source, Point3D target, double mass );
 Vector3D Forces_sumAttractionsToPoint( Point3D point, GSList masses );
 
 

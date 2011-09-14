@@ -46,27 +46,8 @@ Point3D Point3D_duplicate( Point3D source );
 
 /** Adds the two points together, and stores the result in the first point.
   * \param this The Point3D to store the result of the addition in
-  * \param point The Point3D to add with
-  **/
-void Point3D_add( Point3D this, Point3D point );
-
-/** Adds the two points together, and stores the result in the first point.
-  * \param this The Point3D to store the result of the addition in
   * \param vector The 3DVector to add
   * \param scale The amount to scale the vector by
-  **/
-void Point3D_addVector( Point3D this, Vector3D vector, double scale );
-
-/** Subtracts the second point from the first, and stores the result in the first point.
-  * \param this The Point3D to store the result of the subtraction in
-  * \param point The Point3D to subtract from the first
-  **/
-void Point3D_subtract( Point3D this, Point3D point );
-
-/** Adds a scaled form of a 3DVector to the Point3D provided.
-  * \param this The Point3D to store the result of the addition in
-  * \param vector The 3DVector to add
-  * \param scale The amount to scale the add by.
   **/
 void Point3D_addVector( Point3D this, Vector3D vector, double scale );
 
